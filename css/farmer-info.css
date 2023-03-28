@@ -1,0 +1,34 @@
+.informationParts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.farmerInformation .Info{
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #0d0442;
+    margin: 15px;
+}
+.farmerInformation .Info .infoImage{
+    width: 100%;
+    height: 50%;
+}
+.farmerInformation .Info .infoImage img{
+    height: 100%;
+    width: 100%;
+}
+.farmerInformation .Info .infoContent{
+    color: #fff;
+    padding: 10px 0 50px 0;
+}
+.farmerInformation .Info .infoContent h1{
+    font-size: 24px;
+}
+.farmerInformation .Info .infoContent h3{
+    font-size: 20px;
+}
+.farmerInformation .Info .infoContent p{
+    font-size: 16px;
+}

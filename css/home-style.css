@@ -1,0 +1,313 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0px;
+}
+
+
+/* -----COMMON CSS----- */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0px;
+}
+/* -------NAV PART START-------- */
+nav{
+	background:#ffffff;
+}
+nav ul li a{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #343333 !important;
+	margin-left: 10px;
+	transition: .4s;
+	position: relative;
+}
+nav ul li a:hover{
+	color:#0d0442 !important;
+}
+nav ul li a.active{
+	font-weight: bold;
+	color:#0d0442 !important;
+}
+nav ul li a::after{
+	width: 0%;
+	bottom: 0;
+	left: 0;
+	content: "";
+	position: absolute;
+	height: 3px;
+	background:#0d0442 !important;
+	transition: .4s;
+}
+nav ul li a:hover::after{
+	width: 100%;
+}
+
+/* -------NAV PART END-------- */
+
+
+/*--================ Start About Part ================--*/
+#about-part .title{
+	text-align: center;
+}
+#about-part .about{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#about-part .about .picture{
+	width: 60%;
+}
+#about-part .about .picture img{
+	width: 550px;
+}
+#about-part .about .text{
+	width: 40%;
+}
+#about-part .about .text p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 500px;
+}
+
+/*--================ End About Part ================--*/
+
+/* ----------------------------------------- */
+.busniess-process .item{
+    background-color: rgb(236, 236, 230);
+    padding: 28px;
+}
+.busniess-process p{
+    text-align: justify;
+}
+.busniess-process .icon{
+    display: flex;
+    align-items: center;
+}
+.busniess-process .icon i{
+    width: 100%;
+    width: 100%;
+    font-size: 80px;
+}
+/* ----------------------------------------- */
+
+
+/* ----------------------------------------- */
+.purchase-part .morePurchase{
+    padding: 5px 50px;
+    border: 2px solid seagreen;
+    border-radius: 20px;
+    outline: none;
+}
+.purchase-part .morePurchase a{
+    color: seagreen;
+    text-decoration: none;
+}
+.purchase-part .btn{
+    padding: 20px;
+    background-color: seagreen;
+}
+.purchase-part .btn a{
+    color: #fff;
+    text-decoration: none;
+}
+.purchase-part .btn:hover{
+    background-color: yellowgreen;
+}
+.purchase-part .btn a{
+    color: #fff;
+}
+.carousel-inner img{
+    height: 100%;
+    width: 100%;
+}
+
+/* -------REVIEW PART START-------- */
+.review-part{
+	background: #0d0442;
+}
+.review-part .review{
+	padding: 7% 10%;
+}
+.review-part .carousel-item{
+	padding: 5% 15%;
+	font-style: italic;
+	text-align: center;
+}
+.review-part .review .carousel-item .farmer-images{
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+}
+.review-part .carousel-indicators{
+	bottom: -20px;
+	object-fit: cover;
+}
+/* -------REVIEW PART END-------- */
+
+/* .reviewPart{
+    background-color: #eaeaea;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.part{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.part .review-photos{
+    height: 150px; 
+    width: 150px;
+}
+.part .review-photos img{
+    height: 100%; 
+    width: 100%;
+    border-radius: 50%;
+} */
+.carousel-control-prev-icon {
+    background-color: black;
+}
+.carousel-control-next-icon {
+    background-color: black;
+}
+.reviewPart .carousel-indicators {
+    margin-bottom: -1rem;
+}
+
+
+/* -------CONTACT PART START-------- */
+/* #contact-part{
+	height: 400px;
+	width: 100%;
+}
+#contact-part .contact-form{
+	width: 50%;
+	height: 100%;
+}
+#contact-part .contact-image{
+	height: 100%;
+	width: 50%;
+	background-color: #0d0442;
+} */
+/* -------CONTACT PART END-------- */
+
+/* -------FOOTER PART START-------- */
+#footer-part .footer_title{
+	padding: 10px 0;
+	box-sizing: border-box;
+	border-bottom: 1px solid #cdcdcd;
+} 
+#footer-part .footer_title h2{
+	color: #5d5858;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+#footer-part .item-1 .locations ul a{
+	text-decoration: none;
+}
+#footer-part .item-1 .locations ul a li{
+	color: #999;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	transition: .5s;
+	margin-bottom: 10px;
+}
+#footer-part .item-1 .locations ul a li:hover{
+	transform: translateX(10%);
+	color: #d50c0d;
+}
+#footer-part .item-2 .links ul a{
+	text-decoration: none;
+}
+#footer-part .item-2 .links ul a li{
+	color: #999;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	transition: .5s;
+	margin-bottom: 10px;
+}
+#footer-part .item-2 .links ul a li:hover{
+	color: #d50c0d;
+}
+
+#footer-part .item-3 .contact-info .social-meadia-icon i{
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	background: #999;
+	text-align: center;
+	color: #fff;
+	transition: .4s;
+	margin-right: 20px;
+}
+#footer-part .item-3 .contact-info .social-meadia-icon{
+	padding: 10px 0px;
+}
+#footer-part .item-3 .contact-info .social-meadia-icon i:hover{
+	color: #d50c0d;
+}
+#footer-part .item-3 .contact{
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+	transition: .4s;
+}
+#footer-part .item-3 .contact .contact_icon i{
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	background: #d50c0d;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	transition: .4s;
+	color: #ffff;
+}
+#footer-part .item-3 .contact .contact_icon i:hover{
+	color: #cdcdcd;
+}
+#footer-part .item-3 .contact .contact_text p{
+	color: #131313;
+	margin: -1px;
+	font-family: 'Open Sans', sans-serif;
+}
+/* -------FOOTER PART END-------- */
+
+/* -----COPY RIGHT PART START---- */
+#copy-right{
+	padding: 20px 0px;
+	background: #0d0442;
+}
+#copy-right p{
+	color: #fff;
+}
+/* -----COPY RIGHT PART END---- */
